@@ -8,7 +8,7 @@
   @guest
       <a href="{{route('register')}}" class="mr-2">ユーザー登録（無料）</a>
       <a href="{{route('login')}}" class="">ログイン</a>
-  @endauth
+  @endguest
     </div>
   </div>
 </section>
